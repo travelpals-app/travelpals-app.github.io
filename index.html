@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelPals - Plan Your Adventures</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #4a90e2, #50c9c3);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .feature-card h3 {
+            color: #4a90e2;
+            margin-bottom: 1rem;
+        }
+
+        .download {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .download a {
+            display: inline-block;
+            background-color: #4a90e2;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .download a:hover {
+            background-color: #357abd;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TravelPals</h1>
+        <p>Your ultimate Flutter app for organizing travel and meeting friends</p>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h2>Welcome to TravelPals</h2>
+            <p>TravelPals is a Flutter-based mobile application designed to make your travel planning seamless and fun. Connect with friends, organize trips, and create unforgettable memories together.</p>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>Plan Trips</h3>
+                <p>Create detailed itineraries, set destinations, and share plans with your travel buddies in real-time.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Connect with Friends</h3>
+                <p>Invite friends, coordinate meetups, and stay updated with group chats and notifications.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Explore Together</h3>
+                <p>Discover new places, save favorite spots, and make every adventure memorable.</p>
+            </div>
+        </section>
+
+        <section class="download">
+            <h2>Get TravelPals Now</h2>
+            <p>Available on iOS and Android. Download today and start planning your next adventure!</p>
+            <a href="#">Download Now</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 TravelPals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
