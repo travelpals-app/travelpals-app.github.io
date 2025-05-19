@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.travelpals",
+    "sha256_cert_fingerprints":
+    ["3D:0C:AD:2E:D4:41:FF:27:FB:20:29:5C:CD:CD:42:C5:E4:42:F5:D9:8B:DD:62:A0:A7:ED:14:67:9E:B7:CA:6C"]
+  }
+}]
